@@ -1,0 +1,17 @@
+{
+  "name": "ts-neetcode",
+  "author": "Hayden Hanson (www.haydenhanson.dev)",
+  "version": "1.0.0",
+  "description": "Test-Driven TypeScript environment for solving leetcode problems. These problems are from the neetcode 150 roadmap.",
+  "scripts": {
+    "build": "tsc",
+    "start": "jest --watch",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.5"
+  }
+}
