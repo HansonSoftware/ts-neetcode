@@ -1,17 +1,39 @@
 # TypeScript Neetcode
 
-> Check out the neetcode roadmap [here](https://neetcode.io/roadmap)
+> Explore the Neetcode roadmap [here](https://neetcode.io/roadmap)
 
-This is a TDD Typescript environment for interview prep and having fun solving some problems!
+Welcome to the TypeScript Neetcode repository! This project is designed to provide a TDD (Test-Driven Development) environment for interview preparation and problem-solving in TypeScript.
 
-## Using this repo:
+## How to Use This Repository
 
-Clone this repo
+### Clone the Repository
 
-Install dependencies
+Clone the repository using either of the following methods:
 
-`npm install`
+HTTPS:
+```sh
+git clone https://github.com/HansonSoftware/ts-neetcode.git
+```
+SSH:
+```sh
+git clone git@github.com:HansonSoftware/ts-neetcode.git
+```
 
-That's it! Write your tests in /tests and import your solutions from /src
+### Install Dependencies
 
-You run the tests with `npm test`
+Navigate to the project directory and install the necessary dependencies:
+
+```sh
+npm install
+```
+
+### Write and Run Tests
+
+1. Write your tests in the `/tests` directory.
+2. Import your solutions from the `/src` directory.
+
+To run the tests, use the following command:
+
+```sh
+npm test
+```
